@@ -1,0 +1,12 @@
+Source: ros-jazzy-depth-obstacle-detect-ros-msgs
+Section: misc
+Priority: optional
+Maintainer: Analog Devices <ros@analog.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-depth-obstacle-detect-ros-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: A message package for depth_obstacle_detect_ros package
