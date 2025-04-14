@@ -1,0 +1,12 @@
+Source: ros-jazzy-depth-obstacle-detect-ros
+Section: misc
+Priority: optional
+Maintainer: Analog Devices <ros@analog.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-cv-bridge, ros-jazzy-depth-obstacle-detect-ros-msgs, ros-jazzy-image-transport, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-depth-obstacle-detect-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-cv-bridge, ros-jazzy-depth-obstacle-detect-ros-msgs, ros-jazzy-image-transport, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-ros2launch, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Description: The depth based obstacle detection package
